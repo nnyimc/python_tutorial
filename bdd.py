@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 from mysql.connector import connection, errorcode
 try:
-    cnx = connection.MySQLConnection(user="nnyimc", password="P!4st!qu3", 
+    cnx = connection.MySQLConnection(user="nnyimc", password="", 
                                      host="127.0.0.1", database="hibernate")
 except mysql.connector.Error as err:
     if err.errno == errorcode.ER_ACCESS_DENIED_ERROR:
